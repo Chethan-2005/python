@@ -1,0 +1,14 @@
+def calculate_simple_interest(principal, rate_of_interest, time):
+    if age >= 60:
+        rate_of_interest = 0.15
+    elif age < 60:
+        rate_of_interest = 0.12
+    else:
+        rate_of_interest = 0.1
+    simple_interest = (principal * rate_of_interest * time) / 100
+    return simple_interest
+principal = float(input("Enter the principal amount: "))
+time = float(input("Enter the time period in years: "))
+age = int(input("Enter the age of the customer: "))
+interest = calculate_simple_interest(principal, rate_of_interest, time)
+print("The simple interest is: ", interest)
